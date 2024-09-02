@@ -3880,20 +3880,7 @@ $(document).ready(function(){
                     sizeSelector = innerContainer.querySelector('.sizedata');
                     pressSelector = innerContainer.querySelector('.press');
 
-                    // function assignOptions(textArray, selector) {
-                    //     for (var i = 0; i < textArray.length;  i++) {
-                    //         var currentOption = document.createElement('option');
-                    //         currentOption.text = textArray[i];
-                    //         selector.appendChild(currentOption);
-                    //     }
-                    // }
-
-                    // // assignOptions(listofMonths, monthSelector);
-                    // assignOptions(listofDays, daySelector);
-                    // assignOptions(listofHours, hourSelector);
-                    // assignOptions(listofLanes, laneSelector);
-                    // assignOptions(listofWays, waySelector);
-                    // assignOptions(listofSizes, sizeSelector);
+       
 
                     function updateTime(){
                         totalPlot(daySelector.value, hourSelector.value, laneSelector.value, waySelector.value, sizeSelector.value);
@@ -4235,20 +4222,8 @@ $(document).ready(function(){
                     sizeSelector = innerContainer.querySelector('.sizedata');
                     pressSelector = innerContainer.querySelector('.press');
 
-                    // function assignOptions(textArray, selector) {
-                    //     for (var i = 0; i < textArray.length;  i++) {
-                    //         var currentOption = document.createElement('option');
-                    //         currentOption.text = textArray[i];
-                    //         selector.appendChild(currentOption);
-                    //     }
-                    // }
 
-                    // // assignOptions(listofMonths, monthSelector);
-                    // assignOptions(listofDays, daySelector);
-                    // assignOptions(listofHours, hourSelector);
-                    // assignOptions(listofLanes, laneSelector);
-                    // assignOptions(listofWays, waySelector);
-                    // assignOptions(listofSizes, sizeSelector);
+
 
                     function updateTime(){
                         totalPlot(daySelector.value, hourSelector.value, laneSelector.value, waySelector.value, sizeSelector.value);

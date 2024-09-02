@@ -134,7 +134,7 @@ foreach ($array["ETagPairs"]['ETagPair'] as $d){
 echo json_encode($geojson_etc, JSON_UNESCAPED_UNICODE);
 
 
-// echo var_dump($geojson_etc);  /**/
+// echo var_dump($geojson_etc);  
 
 
 
